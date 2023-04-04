@@ -2,14 +2,12 @@ package com.example.usermanagementbackend.controller;
 
 import com.example.usermanagementbackend.model.dto.UserDto;
 import com.example.usermanagementbackend.model.request.CreateUserRequest;
-import com.example.usermanagementbackend.model.request.UpdateAvatarRequest;
 import com.example.usermanagementbackend.model.request.UpdatePasswordRequest;
 import com.example.usermanagementbackend.model.request.UpdateUserRequest;
 import com.example.usermanagementbackend.model.response.FileResponse;
 import com.example.usermanagementbackend.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;

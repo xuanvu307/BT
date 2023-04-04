@@ -162,7 +162,7 @@ public class UserService {
 
         // Set lại avatar của user
         user.setAvatar(fileResponse.getUrl());
-        
+
         userRepository.save(user);
         return fileResponse;
     }
